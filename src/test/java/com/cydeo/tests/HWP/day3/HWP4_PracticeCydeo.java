@@ -22,16 +22,16 @@ public class HWP4_PracticeCydeo {
         //driver.findElement(By.xpath("//a[@class='nav-link']")).click();
         //driver.findElement(By.xpath("//a[.='Home']")).click();
         WebElement homeLink = driver.findElement(By.xpath("//a[@class='nav-link']"));
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         homeLink.click();
 
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
 
 
         //4- Verify title is as expected: Expected: Practice //tagName[@attribute='value']
 
-        String expectedTitle = "Test Automation Practice";
+        String expectedTitle = "Practice";
         String actualTitle = driver.findElement(By.xpath("//h1[@class='h1']")).getText();
 
         if (expectedTitle.equalsIgnoreCase(actualTitle)) {
@@ -44,7 +44,7 @@ public class HWP4_PracticeCydeo {
 
        driver.navigate().back();
 
-       Thread.sleep(3000);
+       Thread.sleep(2000);
        driver.quit();
 
 

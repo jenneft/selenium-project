@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class T3_BackForthNavigationXpathCss {
+public class HWP3_BackForthNavigationXpathCss {
     public static void main(String[] args) throws InterruptedException {
         //1- Open a chrome browser
         WebDriver driver= WebDriverFactory.getDriver("chrome");

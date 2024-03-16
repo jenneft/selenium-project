@@ -6,7 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class T1_EtsyTitleVerification {
+public class HWP1_EtsyTitleVerification {
     public static void main(String[] args) throws InterruptedException {
         //1- Open a chrome browser
         WebDriver driver= WebDriverFactory.getDriver("chrome");

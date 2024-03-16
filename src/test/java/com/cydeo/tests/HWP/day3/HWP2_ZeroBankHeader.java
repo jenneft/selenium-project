@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class T2_ZeroBankHeader {
+public class HWP2_ZeroBankHeader {
     public static void main(String[] args) throws InterruptedException {
         //1. Open Chrome browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
